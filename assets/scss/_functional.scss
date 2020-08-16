@@ -1,0 +1,16 @@
+$fonts:(
+    primary: "fonts_name",
+    secondary: "fonts_name",
+);
+@function font($font_name){
+    @return map-get($map: $fonts, $key: $font_name);
+}
+$one: red;
+$color:(
+    primary: $one,
+    secondary: "color_name",
+);
+
+@function color($colors_name) {
+    @return map-get($map: $color, $key: $colors_name);
+}

@@ -1,0 +1,23 @@
+{
+  "name": "readyfile",
+  "version": "1.0.0",
+  "description": "bootstrap,scss,css,js,html",
+  "main": "index.html",
+  "scripts": {
+    "test": "run index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SheikhRashed/startPack.git"
+  },
+  "author": "Sheikh Rashed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SheikhRashed/startPack/issues"
+  },
+  "homepage": "https://github.com/SheikhRashed/startPack#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "bootstrap": "^4.5.0"
+  }
+}
