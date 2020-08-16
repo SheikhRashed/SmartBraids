@@ -10,7 +10,6 @@
 .mix:before {
     content: '';
     display: inline-block;
-    // padding-top: 56.25%;
 }
 
 .filters {
@@ -24,7 +23,6 @@
 .gallery{
     margin: 60px 0px;
     .controls{
-        // display: flex;
         justify-content: space-between;
         margin: 0px;
         button{
@@ -33,7 +31,7 @@
             text-transform: uppercase;
             color: #073a59;
             border-radius: 5px;
-            font-family: Fira_semi_bold;
+            font-family: Fira_medium;
             border: 2px solid #ec008c;
             &.mixitup-control-active{
             background: rgb(248,171,173);

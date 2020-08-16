@@ -122,7 +122,7 @@ input{
     border: 1px solid #ec008c !important;
 }
 .modal-content{
-    z-index: 99999999999999;
+    // z-index: 99999999999999;
 }
 .d-end{
     display: flex;
@@ -163,7 +163,6 @@ input{
 
 // Button
 .btn-form{
-    // max-width: 145px;
     padding: 8px 16px;
     border-radius: 30px;
     background: rgb(248,171,173);
@@ -171,7 +170,7 @@ input{
     color: #fff;
     font-size: 18px;
     line-height: 22px;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     transition: all 0.6s linear;
     text-align: center;
     text-transform: uppercase;
@@ -313,7 +312,7 @@ input{
 //   Callender Css
 #ui-datepicker-div
  {
-   z-index: 999999999  !important;
+   z-index: 99999999999999  !important;
 
    @media(max-width: 575px) {
        left: 0px !important;
@@ -321,7 +320,7 @@ input{
    }
 }
 #ptTimeSelectCntr{
-    z-index: 9999999 !important;
+    z-index: 99999999999999 !important;
 }
 #ptTimeSelectCntr {
     @media(max-width: 575px) {
@@ -337,35 +336,10 @@ input{
         padding: 5px !important;
     }
 }
-// .date_input{
-//     padding: 6px 15px !important;
-//     width: 75%;
-//     @media(max-width: 767px) {
-//         width: 92%;
-//     }
-//     @media(max-width: 576px) {
-//         width: 88%;
-//     }
-//     @media(max-width: 480px) {
-//         width: 86%;
-//     }
-//     @media(max-width: 375px) {
-//         width: 82%;
-//     }
-// }
-// .modal-body{
- 
-//     .date_input{
-//         padding: 6px  15px !important;
-//         width: 91% !important;
-//       @media(max-width: 480px) {
-//           width: 88% !important;
-//       }
-//       @media(max-width: 320px) {
-//           width: 85% !important;
-//       }
-//     }
-// }
+
+.modal{
+    z-index: 9999999999  !important;
+}
 
 .ui-datepicker-calendar {
     background-color: #ec008c;
