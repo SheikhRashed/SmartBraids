@@ -3,9 +3,44 @@
     background: linear-gradient(90deg, rgba(248,171,173,1) 0%, rgba(236,0,140,1) 100%);
     padding: 16px 0px;
    .container{
+
+    .row{
+        .col-lg-2{
+           @media(max-width: 768px) {
+               display: flex;
+               justify-content: center;
+               margin-bottom: 10px;
+           }
+        }
+    }
+
+
         .social-icon{
+            
             @media (max-width: 767px) {
                 justify-content: center;
+            }
+            li {
+                transition: all 0.4s;
+                &:hover{
+                    transform: translateY(2px);
+                }
+                a{
+                    i{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        font-size: 16px;
+                        background: #fff;
+                        width: 30px;
+                        height: 30px;
+                        border-radius: 50%;
+                        color: #fa028f;
+                        @media(max-width: 768px) {
+                            font-size: 14px;
+                        }
+                    }
+                }
             }
         }
         .opper_text{
